@@ -9,41 +9,34 @@ const fadeUp = makeFadeUp(0.08);
 const principi = [
   {
     index: '01',
-    title: 'Filiera corta',
-    short: 'Materiali prodotti entro 100km dal cantiere',
-    detail: 'Ridurre le emissioni legate al trasporto è la prima forma di rispetto per l\'ambiente. Pietra umbra, cotto di Deruta, legni dell\'Appennino: risorse straordinarie che esistono già nel territorio.',
-    img: 'eco-stone-local',
-  },
-  {
-    index: '02',
     title: 'Durabilità',
     short: 'Progettare per durare, non per essere sostituito',
     detail: 'Un mobile ben fatto che dura vent\'anni è più sostenibile di dieci sostituti usa-e-getta. Scelgo fornitori artigiani che usano giunti a incastro, finiture naturali, strutture riparabili.',
     img: 'eco-wood-craft',
   },
   {
-    index: '03',
+    index: '02',
     title: 'Biofilia',
     short: 'Connettere gli spazi con la natura circostante',
     detail: 'Ventilazione naturale, illuminazione zenitale, materiali che respirano. Il benessere di chi abita uno spazio è strettamente legato alla qualità dell\'aria, alla luce naturale e alla presenza di elementi vivi.',
     img: 'eco-natural-light',
   },
   {
-    index: '04',
+    index: '03',
     title: 'Recupero e riuso',
     short: 'Il miglior materiale è quello già esistente',
     detail: 'Prima di comprare, cerco. Travi recuperate, mattoni di demolizione, pietra di riuso: ogni elemento con una storia porta nei nuovi spazi un carattere irripetibile che nessun materiale nuovo può eguagliare.',
     img: 'eco-reclaimed-wood',
   },
   {
-    index: '05',
+    index: '04',
     title: 'Efficienza energetica',
     short: 'Design che riduce il fabbisogno energetico',
     detail: 'L\'orientamento delle aperture, la scelta dell\'inerzia termica delle pareti, i colori delle superfici: il design può ridurre drasticamente il consumo energetico di un edificio senza compromettere l\'estetica.',
     img: 'eco-passive-house',
   },
   {
-    index: '06',
+    index: '05',
     title: 'Artigianato locale',
     short: 'Sostenere le maestranze del territorio',
     detail: 'Collaboro con ceramisti, falegnami, ferri battuti e tessitori umbri. Sostenere l\'artigianato locale significa preservare saperi antichi, ridurre gli sprechi di produzione e ottenere pezzi unici su misura.',
@@ -78,7 +71,7 @@ export default function EcoPrincipi() {
               className="font-sans text-xs tracking-[0.3em] uppercase mb-5 opacity-40"
               style={{ color: 'var(--cream)' }}
             >
-              I sei principi
+              I cinque principi
             </p>
             <h2
               className="font-serif text-5xl md:text-6xl font-light leading-[1.0] tracking-tight"
