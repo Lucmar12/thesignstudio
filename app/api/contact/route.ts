@@ -1,18 +1,9 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
-export async function GET() {
-  return NextResponse.json({
-    keyLoaded: !!process.env.RESEND_API_KEY,
-    keyPrefix: process.env.RESEND_API_KEY?.slice(0, 8) ?? 'missing',
-  });
-}
-
 export async function POST(req: Request) {
   if (!process.env.RESEND_API_KEY) {
-    return NextResponse.json({ error: 'RESEND_API_KEY non trovata — riavvia il server dev' }, { status: 500 });
+    return NextResponse.json({ error: 'RESEND_API_KEY non configurata' }, { status: 500 });
   }
 
   const { nome, email, tipologia, messaggio } = await req.json();
@@ -20,6 +11,8 @@ export async function POST(req: Request) {
   if (!nome || !email || !messaggio) {
     return NextResponse.json({ error: 'Campi obbligatori mancanti.' }, { status: 400 });
   }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   const { data, error } = await resend.emails.send({
     from: 'The-Sign Studio <onboarding@resend.dev>',
@@ -31,7 +24,7 @@ export async function POST(req: Request) {
 
   if (error) {
     console.error('[Resend error]', JSON.stringify(error));
-    return NextResponse.json({ error: error.message, detail: JSON.stringify(error) }, { status: 500 });
+    return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
   console.log('[Resend ok] email id:', data?.id);
