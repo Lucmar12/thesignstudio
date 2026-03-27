@@ -12,7 +12,7 @@ const jsonLd = {
   '@type': 'ProfessionalService',
   name: 'The-Sign Studio',
   description: 'Studio di interior design, architettura, branding e graphic design in Umbria. Progettazione sostenibile con materiali locali e artigiani del territorio.',
-  url: 'https://thesignstudio-lucmar12.vercel.app',
+  url: 'https://the-signstudio.com',
   telephone: '+393896390261',
   email: 'thesignstudio023@hotmail.com',
   foundingDate: '2023',

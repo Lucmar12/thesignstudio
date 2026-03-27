@@ -17,7 +17,7 @@ const cormorant = Cormorant_Garamond({
   style: ["normal", "italic"],
 });
 
-const siteUrl = 'https://thesignstudio-lucmar12.vercel.app'; // aggiorna con dominio definitivo
+const siteUrl = 'https://the-signstudio.com'; // aggiorna con dominio definitivo
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

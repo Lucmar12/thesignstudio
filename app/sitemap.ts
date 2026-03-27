@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const siteUrl = 'https://thesignstudio-lucmar12.vercel.app'; // aggiorna con dominio definitivo
+const siteUrl = 'https://the-signstudio.com'; // aggiorna con dominio definitivo
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
