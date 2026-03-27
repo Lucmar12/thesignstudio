@@ -11,7 +11,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'The-Sign Studio',
-  description: 'Studio di interior design, architettura, branding e graphic design in Umbria. Progettazione sostenibile con materiali locali e artigiani del territorio.',
+  description: 'Studio di interior design, architettura, branding e graphic design tra Umbria e Toscana. Operiamo a Firenze, Prato, Scandicci e in tutta Italia. Progettazione sostenibile con materiali locali.',
   url: 'https://the-signstudio.com',
   telephone: '+393896390261',
   email: 'thesignstudio023@hotmail.com',
@@ -21,7 +21,7 @@ const jsonLd = {
     addressRegion: 'Umbria',
     addressCountry: 'IT',
   },
-  areaServed: ['Umbria', 'Toscana', 'Italia'],
+  areaServed: ['Umbria', 'Toscana', 'Firenze', 'Prato', 'Scandicci', 'Italia'],
   serviceType: [
     'Interior Design',
     'Architettura',
