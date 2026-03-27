@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   icons: {
-    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   },
 };
 
