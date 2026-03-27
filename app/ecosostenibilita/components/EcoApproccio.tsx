@@ -29,8 +29,7 @@ const approcci = [
     bg: 'var(--cream)',
     points: [
       { title: 'Massa termica e orientamento', desc: 'Collaboro con gli architetti per leggere il sole e il vento prima di disegnare una parete. Una casa ben orientata consuma meno senza sacrificare nulla.' },
-      { title: 'Materiali locali a km 0', desc: 'Pietra umbra, travertino di Terni, laterizi di Deruta: ogni elemento porta con sé il paesaggio del luogo.' },
-      { title: 'Recupero dell\'esistente', desc: 'Quando possibile, non si demolisce. Il miglior edificio sostenibile è quello già in piedi: ogni recupero è una scelta contro lo spreco.' },
+{ title: 'Recupero dell\'esistente', desc: 'Quando possibile, non si demolisce. Il miglior edificio sostenibile è quello già in piedi: ogni recupero è una scelta contro lo spreco.' },
       { title: 'Dettagli costruttivi certificati', desc: 'Giunti a secco, fissaggi meccanici, finiture smontabili: progetto per il disassemblaggio, non solo per l\'uso.' },
     ],
   },
