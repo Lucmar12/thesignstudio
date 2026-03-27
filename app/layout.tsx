@@ -60,6 +60,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteUrl,
   },
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+  },
 };
 
 export default function RootLayout({
