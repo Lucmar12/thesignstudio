@@ -22,7 +22,7 @@ const siteUrl = 'https://the-signstudio.com'; // aggiorna con dominio definitivo
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'The-Sign Studio — Interior Design & Architettura | Umbria e Toscana',
+    default: 'The-Sign Studio — Interior, Graphic Design & Architettura',
     template: '%s — The-Sign Studio',
   },
   description: "Studio di interior design, architettura, branding e graphic design tra Umbria e Toscana. Operiamo a Firenze, Prato, Scandicci e in tutta Italia. Progettazione sostenibile con materiali locali. Est. 2023.",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     locale: 'it_IT',
     url: siteUrl,
     siteName: 'The-Sign Studio',
-    title: 'The-Sign Studio — Interior Design & Architettura | Umbria e Toscana',
+    title: 'The-Sign Studio — Interior, Graphic Design & Architettura',
     description: "Studio di interior design, architettura e branding tra Umbria e Toscana. Operiamo a Firenze, Prato, Scandicci e in tutta Italia.",
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'The-Sign Studio' }],
   },
