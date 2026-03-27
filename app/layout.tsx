@@ -69,6 +69,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it">
+      <head>
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%233E3B2E'/%3E%3Cpath d='M20 10.5C18.5 9 16 9 16 9C12.5 9 10.5 10.8 10.5 13C10.5 15.2 12 16.2 15.5 17C19 17.8 21.5 18.8 21.5 21.2C21.5 23.6 19.2 25 16 25C13 25 11 23.2 11 23.2' stroke='%23F5F2EA' stroke-width='1.6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E" type="image/svg+xml" />
+      </head>
       <body className={`${geistSans.variable} ${cormorant.variable} antialiased`}>
         {children}
         <CookieBanner />
