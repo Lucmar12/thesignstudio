@@ -9,7 +9,6 @@ import Image from 'next/image';
 const fadeUp = makeFadeUp(0.09);
 
 const pillars = [
-  'Materiali locali a km 0',
   'Filiera artigianale locale',
   'Biofilia e qualità dell\'aria',
   'Recupero dell\'esistente',
