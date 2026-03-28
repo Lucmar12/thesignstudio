@@ -29,7 +29,7 @@ export default function EcoHero() {
         style={{ inset: '-12% 0', zIndex: 0 }}
       >
         <Image
-          src="https://picsum.photos/seed/deep-forest-trees/1800/1000"
+          src="/images/foresta.jpg"
           alt=""
           aria-hidden
           fill
