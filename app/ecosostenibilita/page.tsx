@@ -2,7 +2,6 @@ import EcoHero from './components/EcoHero';
 import EcoManifesto from './components/EcoManifesto';
 import EcoApproccio from './components/EcoApproccio';
 import EcoPrincipi from './components/EcoPrincipi';
-import EcoMateriali from './components/EcoMateriali';
 import EcoCTA from './components/EcoCTA';
 import Nav from '../components/Nav';
 
@@ -29,7 +28,6 @@ export default function EcosostenibilitaPage() {
       <EcoManifesto />
       <EcoApproccio />
       <EcoPrincipi />
-      <EcoMateriali />
       <EcoCTA />
     </main>
   );
