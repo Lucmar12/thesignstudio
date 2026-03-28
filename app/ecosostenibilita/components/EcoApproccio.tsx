@@ -18,7 +18,6 @@ const approcci = [
       { title: 'Materiali naturali e traspiranti', desc: 'Calce, cotto, legno non trattato: superfici che regolano umidità e qualità dell\'aria senza intervento meccanico.' },
       { title: 'Ciclo vita dei mobili', desc: 'Scegliamo pezzi artigianali riparabili, non collezioni di serie. Un tavolo solido che dura 30 anni vale più di tre sostituti.' },
       { title: 'Luce naturale come progetto', desc: 'L\'orientamento di specchi, superfici riflettenti e aperture riduce la dipendenza dall\'illuminazione artificiale.' },
-      { title: 'Colori naturali', desc: 'Pigmenti minerali, ossidi di ferro, terre umbre: colori che non invecchiano perché vengono dalla stessa terra che abitano.' },
     ],
   },
   {
