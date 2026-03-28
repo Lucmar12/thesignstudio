@@ -80,7 +80,7 @@ export default function EcoMateriali() {
             className="self-end font-sans text-sm leading-relaxed opacity-50 max-w-sm"
             style={{ color: 'var(--charcoal)' }}
           >
-            Preferisco materiali con una storia geografica definita. Ogni pietra, ogni trave, ogni tegola porta con sé il paesaggio da cui proviene — e lo porta negli spazi in cui arriva.
+            Preferiamo materiali con una storia geografica definita. Ogni pietra, ogni trave, ogni tegola porta con sé il paesaggio da cui proviene — e lo porta negli spazi in cui arriva.
           </motion.p>
         </div>
 

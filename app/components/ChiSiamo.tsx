@@ -63,10 +63,10 @@ export default function ChiSiamo() {
           className="flex flex-col gap-7 pt-2"
         >
           <p className="font-sans text-sm leading-relaxed max-w-sm" style={{ color: 'var(--muted)' }}>
-            Lavoro su quattro discipline con la stessa attenzione: interior design, architettura, branding e graphic design. Non sono ambiti separati — spesso si incontrano nello stesso progetto.
+            Lavoriamo su quattro discipline con la stessa attenzione: interior design, architettura, branding e graphic design. Non sono ambiti separati — spesso si incontrano nello stesso progetto.
           </p>
           <p className="font-sans text-sm leading-relaxed max-w-sm" style={{ color: 'var(--muted)' }}>
-            Non mi definisco con uno stile preciso: la mia unica corrente è la richiesta del cliente, mescolata all&apos;ecosostenibilità e a una ricerca visiva autentica, che valga tanto per uno spazio quanto per un&apos;identità di marca.
+            Non ci definiamo con uno stile preciso: la nostra unica corrente è la richiesta del cliente, mescolata all&apos;ecosostenibilità e a una ricerca visiva autentica, che valga tanto per uno spazio quanto per un&apos;identità di marca.
           </p>
           <p className="font-sans text-sm leading-relaxed max-w-sm" style={{ color: 'var(--muted)' }}>
             Che si tratti di un appartamento, di un edificio, di un logo o di un catalogo — il processo è sempre lo stesso: ascoltare, osservare, capire, progettare.

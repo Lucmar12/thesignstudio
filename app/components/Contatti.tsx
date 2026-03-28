@@ -269,7 +269,7 @@ export default function Contatti() {
                 Messaggio inviato
               </p>
               <p className="font-sans text-sm opacity-50" style={{ color: 'var(--charcoal)' }}>
-                Ti risponderò al più presto. Non vedo l&apos;ora di scoprire il tuo progetto.
+                Vi risponderemo al più presto. Non vediamo l&apos;ora di scoprire il tuo progetto.
               </p>
             </motion.div>
           )}

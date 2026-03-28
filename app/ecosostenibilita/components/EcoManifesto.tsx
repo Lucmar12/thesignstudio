@@ -18,7 +18,7 @@ const statements = [
   },
   {
     n: '—',
-    text: 'Collaboro con architetti che condividono questa visione: ogni apertura, ogni massa muraria, ogni superficie ha un impatto energetico che il design può governare.',
+    text: 'Collaboriamo con architetti che condividono questa visione: ogni apertura, ogni massa muraria, ogni superficie ha un impatto energetico che il design può governare.',
   },
 ];
 
@@ -142,7 +142,7 @@ export default function EcoManifesto() {
               className="font-serif font-light italic leading-snug tracking-tight"
               style={{ color: 'var(--olive-mid)', fontSize: 'clamp(1.4rem, 2.5vw, 2rem)' }}
             >
-              &ldquo;Ogni materiale ha un prezzo ambientale. Il mio lavoro è farlo valere.&rdquo;
+              &ldquo;Ogni materiale ha un prezzo ambientale. Il nostro lavoro è farlo valere.&rdquo;
             </blockquote>
 
             {/* Two key numbers */}

@@ -75,23 +75,6 @@ export default function Hero() {
           </motion.p>
         </div>
 
-        {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.35 }}
-          transition={{ delay: 1.6, duration: 1 }}
-          className="absolute bottom-8 left-8 md:left-14 flex items-center gap-3"
-        >
-          <motion.span
-            animate={{ y: [0, 6, 0] }}
-            transition={{ repeat: Infinity, duration: 2.5, ease: 'easeInOut' }}
-            className="block w-px h-10 opacity-50"
-            style={{ background: 'var(--cream)' }}
-          />
-          <span className="font-sans text-[10px] tracking-[0.25em] uppercase rotate-90 origin-left" style={{ color: 'var(--cream)' }}>
-            Scroll
-          </span>
-        </motion.div>
       </motion.div>
 
       {/* Right — Photo panel */}

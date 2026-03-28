@@ -95,7 +95,7 @@ export default function ComeLavoriamo() {
             className="font-serif text-5xl md:text-6xl font-light leading-[1.0] tracking-tight mb-10"
             style={{ color: 'var(--cream)' }}
           >
-            Il mio<br />
+            Il nostro<br />
             <em>processo</em>
           </motion.h2>
 

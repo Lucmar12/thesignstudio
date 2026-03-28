@@ -39,7 +39,7 @@ const principi = [
     index: '05',
     title: 'Artigianato locale',
     short: 'Sostenere le maestranze del territorio',
-    detail: 'Collaboro con ceramisti, falegnami, ferri battuti e tessitori umbri. Sostenere l\'artigianato locale significa preservare saperi antichi, ridurre gli sprechi di produzione e ottenere pezzi unici su misura.',
+    detail: 'Collaboriamo con ceramisti, falegnami, ferri battuti e tessitori umbri. Sostenere l\'artigianato locale significa preservare saperi antichi, ridurre gli sprechi di produzione e ottenere pezzi unici su misura.',
     img: 'eco-artisan-craft',
   },
 ];
@@ -77,7 +77,7 @@ export default function EcoPrincipi() {
               className="font-serif text-5xl md:text-6xl font-light leading-[1.0] tracking-tight"
               style={{ color: 'var(--cream)' }}
             >
-              Come lavoro<br />
+              Come lavoriamo<br />
               <em>nel rispetto</em><br />
               dell&apos;ambiente
             </h2>

@@ -71,7 +71,7 @@ export default function EcoTeaser() {
             className="font-sans text-sm leading-[1.8] opacity-50 max-w-sm mb-10"
             style={{ color: 'var(--cream)' }}
           >
-            In ogni progetto di interior o architettura scelgo materiali del territorio, artigiani locali e soluzioni costruttive che rispettino l&apos;ambiente. Non per moda: perché è l&apos;unico modo di progettare con onestà.
+            In ogni progetto di interior o architettura scegliamo materiali del territorio, artigiani locali e soluzioni costruttive che rispettino l&apos;ambiente. Non per moda: perché è l&apos;unico modo di progettare con onestà.
           </motion.p>
 
           {/* Pillars — inline chips */}

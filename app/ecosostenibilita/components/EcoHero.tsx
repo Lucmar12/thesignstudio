@@ -29,7 +29,7 @@ export default function EcoHero() {
         style={{ inset: '-12% 0', zIndex: 0 }}
       >
         <Image
-          src="https://picsum.photos/seed/umbria-hills-forest/1800/1000"
+          src="https://picsum.photos/seed/deep-forest-trees/1800/1000"
           alt=""
           aria-hidden
           fill
@@ -102,7 +102,7 @@ export default function EcoHero() {
             className="font-sans text-sm leading-[1.8] opacity-55 max-w-md"
             style={{ color: 'var(--cream)' }}
           >
-            L&apos;ecosostenibilità non è un&apos;opzione aggiuntiva nei miei progetti. È il criterio con cui scelgo ogni materiale, ogni fornitore, ogni dettaglio costruttivo — prima ancora di pensare all&apos;estetica.
+            L&apos;ecosostenibilità non è un&apos;opzione aggiuntiva nei nostri progetti. È il criterio con cui scegliamo ogni materiale, ogni fornitore, ogni dettaglio costruttivo — prima ancora di pensare all&apos;estetica.
           </p>
 
           {/* Scroll hint */}

@@ -16,7 +16,7 @@ const approcci = [
     bg: 'var(--olive-dark)',
     points: [
       { title: 'Materiali naturali e traspiranti', desc: 'Calce, cotto, legno non trattato: superfici che regolano umidità e qualità dell\'aria senza intervento meccanico.' },
-      { title: 'Ciclo vita dei mobili', desc: 'Scelgo pezzi artigianali riparabili, non collezioni di serie. Un tavolo solido che dura 30 anni vale più di tre sostituti.' },
+      { title: 'Ciclo vita dei mobili', desc: 'Scegliamo pezzi artigianali riparabili, non collezioni di serie. Un tavolo solido che dura 30 anni vale più di tre sostituti.' },
       { title: 'Luce naturale come progetto', desc: 'L\'orientamento di specchi, superfici riflettenti e aperture riduce la dipendenza dall\'illuminazione artificiale.' },
       { title: 'Colori naturali', desc: 'Pigmenti minerali, ossidi di ferro, terre umbre: colori che non invecchiano perché vengono dalla stessa terra che abitano.' },
     ],
@@ -28,7 +28,7 @@ const approcci = [
     color: 'var(--charcoal)',
     bg: 'var(--cream)',
     points: [
-      { title: 'Massa termica e orientamento', desc: 'Collaboro con gli architetti per leggere il sole e il vento prima di disegnare una parete. Una casa ben orientata consuma meno senza sacrificare nulla.' },
+      { title: 'Massa termica e orientamento', desc: 'Collaboriamo con gli architetti per leggere il sole e il vento prima di disegnare una parete. Una casa ben orientata consuma meno senza sacrificare nulla.' },
 { title: 'Recupero dell\'esistente', desc: 'Quando possibile, non si demolisce. Il miglior edificio sostenibile è quello già in piedi: ogni recupero è una scelta contro lo spreco.' },
       { title: 'Dettagli costruttivi certificati', desc: 'Giunti a secco, fissaggi meccanici, finiture smontabili: progetto per il disassemblaggio, non solo per l\'uso.' },
     ],
