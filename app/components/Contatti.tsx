@@ -180,7 +180,7 @@ export default function Contatti() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/the_signstudioofficial"
                   className="font-sans text-sm hover:opacity-60 transition-opacity duration-300"
                   style={{ color: 'var(--muted)' }}
                   target="_blank"
@@ -305,7 +305,7 @@ export default function Contatti() {
         <div className="flex items-center gap-5">
           {/* Instagram */}
           <a
-            href="#"
+            href="https://www.instagram.com/the_signstudioofficial"
             aria-label="Instagram"
             className="opacity-30 hover:opacity-70 transition-opacity duration-300"
             style={{ color: 'var(--charcoal)' }}

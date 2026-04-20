@@ -145,7 +145,7 @@ export default function Nav() {
               {/* Social placeholders */}
               <div className="flex gap-6">
                 {[
-                  { label: 'Instagram', href: '#' },
+                  { label: 'Instagram', href: 'https://www.instagram.com/the_signstudioofficial' },
                   { label: 'LinkedIn', href: '#' },
                 ].map((s) => (
                   <a
