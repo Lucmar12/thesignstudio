@@ -12,7 +12,7 @@ const disciplines = [
     tagline: 'Spazio come esperienza sensoriale',
     desc: 'Studio e composizione degli ambienti interni: materiali, luce, proporzioni e atmosfera. Ogni progetto nasce da un ascolto profondo delle esigenze di chi abiterà lo spazio.',
     services: ['Consulenza spaziale', 'Selezione materiali', 'Progettazione arredi', 'Rendering 3D', 'Direzione lavori'],
-    seed: 'interior-warm-living-01',
+    seed: 'interor-design.jpg',
   },
   {
     index: '02',
@@ -20,7 +20,7 @@ const disciplines = [
     tagline: 'Struttura, materia e sostenibilità',
     desc: 'Collaboro con architetti per ristrutturazioni, nuove costruzioni e recupero dell\'esistente. Approccio bioclimatico, materiali locali, rispetto del costruito.',
     services: ['Ristrutturazione', 'Progettazione bioclimatica', 'Recupero edilizio', 'Dettaglio costruttivo', 'Coordinamento cantiere'],
-    seed: 'architecture-stone-arch-02',
+    seed: 'architettura.jpg',
   },
   {
     index: '03',
@@ -28,7 +28,7 @@ const disciplines = [
     tagline: 'Identità che comunica un\'idea',
     desc: 'Costruisco sistemi visivi coerenti per studi, imprese e professionisti. Dal naming alla palette, dall\'iconografia al manuale d\'identità — tutto parla con una voce sola.',
     services: ['Brand identity', 'Naming', 'Sistema visivo', 'Manuale d\'uso', 'Brand strategy'],
-    seed: 'brand-cards-paper-03',
+    seed: 'branding.jpg',
   },
   {
     index: '04',
@@ -36,7 +36,7 @@ const disciplines = [
     tagline: 'Comunicazione visiva con carattere',
     desc: 'Dal catalogo editoriale al packaging, dal visual social alla segnaletica: ogni artefatto grafico progettato con rigore tipografico e attenzione alla produzione.',
     services: ['Editoria e stampa', 'Packaging', 'Visual per i social', 'Segnaletica', 'Art direction'],
-    seed: 'editorial-print-layout-04',
+    seed: 'graphic-design.jpg',
   },
 ];
 
@@ -119,7 +119,7 @@ export default function CosaFacciamo() {
                   {/* Background photo */}
                   <div className="absolute inset-0 z-0">
                     <Image
-                      src={`https://picsum.photos/seed/${d.seed}/800/600`}
+                      src={`/images/${d.seed}`}
                       alt={d.name.replace('\n', ' ')}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
