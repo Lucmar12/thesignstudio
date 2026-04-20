@@ -31,18 +31,6 @@ export default function EcoManifesto() {
       className="py-32 md:py-48 px-8 md:px-14 relative overflow-hidden"
       style={{ background: 'var(--bone)' }}
     >
-      {/* Watermark number */}
-      <div
-        className="absolute right-0 top-0 select-none pointer-events-none font-serif font-light"
-        style={{
-          fontSize: 'clamp(200px, 35vw, 480px)',
-          color: 'rgba(62,59,46,0.035)',
-          lineHeight: 0.85,
-          transform: 'translateX(15%)',
-        }}
-      >
-        01
-      </div>
 
       <div className="relative max-w-[1400px] mx-auto">
 
