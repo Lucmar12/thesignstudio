@@ -12,7 +12,7 @@ const disciplines = [
     tagline: 'Spazio come esperienza sensoriale',
     desc: 'Studio e composizione degli ambienti interni: materiali, luce, proporzioni e atmosfera. Ogni progetto nasce da un ascolto profondo delle esigenze di chi abiterà lo spazio.',
     services: ['Consulenza spaziale', 'Selezione materiali', 'Progettazione arredi', 'Rendering 3D', 'Direzione lavori'],
-    seed: 'interor-design.jpg',
+    seed: 'interior-design.jpg',
   },
   {
     index: '02',
