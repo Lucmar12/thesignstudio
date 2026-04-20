@@ -76,7 +76,7 @@ export default function EcoApproccio() {
             className={`relative overflow-hidden min-h-[40vw] md:min-h-0 ${ai === 1 ? 'md:order-2' : ''}`}
           >
             <Image
-              src={`https://picsum.photos/seed/${a.img}/900/700`}
+              src={`/images/${a.img}.jpg`}
               alt={a.discipline}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
