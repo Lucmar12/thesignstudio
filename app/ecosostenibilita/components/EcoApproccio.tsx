@@ -81,7 +81,7 @@ export default function EcoApproccio() {
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
-              style={{ filter: 'sepia(0.2) contrast(1.06) brightness(0.82)' }}
+              style={{ filter: `sepia(0.2) contrast(1.06) brightness(${ai === 0 ? 0.45 : 0.82})` }}
             />
             {/* Discipline label over photo */}
             <div className="absolute inset-0 flex items-end p-8 md:p-12">
