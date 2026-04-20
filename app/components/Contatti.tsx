@@ -162,6 +162,13 @@ export default function Contatti() {
                 >
                   +39 389 639 0261
                 </a>
+                <a
+                  href="tel:+393466427385"
+                  className="font-sans text-sm hover:opacity-60 transition-opacity duration-300"
+                  style={{ color: 'var(--muted)' }}
+                >
+                  +39 346 642 7385
+                </a>
               </div>
             </div>
             <div>
