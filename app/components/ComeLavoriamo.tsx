@@ -61,7 +61,7 @@ export default function ComeLavoriamo() {
         <div style={{ background: 'var(--olive-dark)' }} />
         <div className="hidden md:block relative overflow-hidden">
           <Image
-            src="https://picsum.photos/seed/interior-chair-warm/800/900"
+            src="/images/designprocess.jpg"
             alt="Come lavoriamo"
             fill
             sizes="50vw"
@@ -170,7 +170,7 @@ export default function ComeLavoriamo() {
         {/* Right col — visible only on mobile as stacked photo */}
         <div className="md:hidden relative h-64 overflow-hidden rounded-sm">
           <Image
-            src="https://picsum.photos/seed/interior-chair-warm/800/500"
+            src="/images/designprocess.jpg"
             alt="Come lavoriamo"
             fill
             sizes="100vw"
