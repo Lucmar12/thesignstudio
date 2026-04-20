@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { makeFadeUp } from '../lib/motion';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const fadeUp = makeFadeUp(0.12);
 
@@ -40,7 +39,7 @@ export default function ChiSiamo() {
       </motion.p>
 
       {/* Asymmetric grid */}
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_auto] gap-x-14 gap-y-12 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-14 gap-y-12 items-start">
 
         {/* Large serif headline */}
         <motion.div custom={1} variants={fadeUp} initial="hidden" animate={inView ? 'visible' : 'hidden'}>
@@ -104,37 +103,6 @@ export default function ChiSiamo() {
           </div>
         </motion.div>
 
-        {/* Photo */}
-        <motion.div
-          custom={3}
-          variants={fadeUp}
-          initial="hidden"
-          animate={inView ? 'visible' : 'hidden'}
-          className="hidden md:block relative"
-          style={{ width: '240px' }}
-        >
-          <div
-            className="p-1.5 rounded-[1.5rem]"
-            style={{ background: 'rgba(62,59,46,0.06)', border: '1px solid var(--border)' }}
-          >
-            <div className="overflow-hidden rounded-[calc(1.5rem-6px)] aspect-[3/4]">
-              <Image
-                src="/images/design_studio_workspace.jpeg"
-                alt="Studio interni"
-                fill
-                sizes="(max-width: 768px) 80vw, 25vw"
-                className="object-cover"
-                style={{ filter: 'sepia(0.2) contrast(1.02) brightness(0.92)' }}
-              />
-            </div>
-          </div>
-          <p
-            className="absolute -bottom-5 -right-3 font-sans text-[10px] tracking-[0.2em] uppercase opacity-40"
-            style={{ color: 'var(--charcoal)' }}
-          >
-            Est. 2023
-          </p>
-        </motion.div>
       </div>
 
       {/* Full-width quote */}
