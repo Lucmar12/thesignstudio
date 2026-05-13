@@ -11,9 +11,9 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'The-Sign Studio',
-  description: 'Studio di interior design, architettura, branding e graphic design tra Umbria e Toscana. Operiamo a Firenze, Prato, Scandicci e in tutta Italia. Progettazione sostenibile con materiali locali.',
+  description: 'Studio di interior design, architettura, branding e graphic design a Firenze, Prato, Scandicci e in tutta la Toscana e Umbria. Progettazione sostenibile con materiali locali.',
   url: 'https://the-signstudio.com',
-  telephone: '+393896390261',
+  telephone: ['+393896390261', '+393466427385'],
   email: 'thesignstudio023@hotmail.com',
   foundingDate: '2023',
   address: {
@@ -21,15 +21,25 @@ const jsonLd = {
     addressRegion: 'Umbria',
     addressCountry: 'IT',
   },
-  areaServed: ['Umbria', 'Toscana', 'Firenze', 'Prato', 'Scandicci', 'Italia'],
+  areaServed: [
+    'Firenze', 'Prato', 'Scandicci', 'Sesto Fiorentino', 'Empoli', 'Pistoia',
+    'Arezzo', 'Siena', 'Lucca', 'Toscana',
+    'Perugia', 'Terni', 'Spoleto', 'Assisi', 'Foligno', 'Orvieto', 'Gubbio', 'Umbria',
+    'Italia',
+  ],
   serviceType: [
     'Interior Design',
     'Architettura',
     'Branding',
     'Graphic Design',
     'Progettazione bioclimatica',
+    'Ristrutturazione',
+    'Arredamento su misura',
+    'Brand Identity',
   ],
-  sameAs: [],
+  sameAs: [
+    'https://www.instagram.com/the_signstudioofficial',
+  ],
 };
 
 export default function Home() {
