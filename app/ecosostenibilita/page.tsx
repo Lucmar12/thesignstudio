@@ -7,16 +7,27 @@ import Nav from '../components/Nav';
 
 export const metadata = {
   title: 'Ecosostenibilità — Progettare per restare',
-  description: 'L\'ecosostenibilità è il criterio con cui scelgo ogni materiale, ogni fornitore, ogni dettaglio costruttivo. Materiali locali a km 0, artigiani umbri e toscani, biofilia e zero VOC. Operiamo tra Umbria e Toscana: Firenze, Prato, Scandicci.',
+  description: 'Progettazione sostenibile a Firenze, Prato, Scandicci e Umbria. Materiali naturali km0, zero VOC, artigiani locali. Interior design e architettura bioclimatica tra Toscana e Umbria.',
   keywords: [
-    'design sostenibile Umbria', 'design sostenibile Toscana', 'materiali naturali km0',
-    'architettura bioclimatica Firenze', 'interior design ecologico Prato',
-    'interior design ecologico Scandicci', 'travertino umbro', 'cotto Deruta',
-    'progettazione biofilia', 'architettura sostenibile Firenze',
+    'design sostenibile Firenze', 'design sostenibile Umbria', 'design sostenibile Toscana',
+    'materiali naturali km0', 'architettura bioclimatica Firenze', 'architettura bioclimatica Umbria',
+    'interior design ecologico Firenze', 'interior design ecologico Prato',
+    'interior design ecologico Scandicci', 'progettazione sostenibile Toscana',
+    'zero VOC interni', 'progettazione biofilia', 'architettura sostenibile Firenze',
+    'ristrutturazione ecosostenibile Firenze', 'ristrutturazione ecosostenibile Umbria',
   ],
+  alternates: {
+    canonical: 'https://the-signstudio.com/ecosostenibilita',
+  },
   openGraph: {
     title: 'Ecosostenibilità — The-Sign Studio',
-    description: 'Materiali locali, artigiani umbri e toscani, zero VOC. La sostenibilità come punto di partenza, non di arrivo.',
+    description: 'Progettazione sostenibile a Firenze e Umbria. Materiali locali km0, zero VOC, artigiani umbri e toscani. La sostenibilità come punto di partenza.',
+    url: 'https://the-signstudio.com/ecosostenibilita',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ecosostenibilità — The-Sign Studio',
+    description: 'Interior design e architettura sostenibile a Firenze, Prato e Umbria. Materiali locali, zero VOC.',
   },
 };
 

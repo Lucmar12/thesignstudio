@@ -13,7 +13,7 @@ const jsonLd = {
   name: 'The-Sign Studio',
   description: 'Studio di interior design, architettura, branding e graphic design a Firenze, Prato, Scandicci e in tutta la Toscana e Umbria. Progettazione sostenibile con materiali locali.',
   url: 'https://the-signstudio.com',
-  telephone: ['+393896390261', '+393466427385'],
+  telephone: '+393896390261',
   email: 'thesignstudio023@hotmail.com',
   foundingDate: '2023',
   address: {

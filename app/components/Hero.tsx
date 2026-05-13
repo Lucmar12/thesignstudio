@@ -48,7 +48,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.75, duration: 1, ease: EASE }}
           >
-            <h1 className="sr-only">The-Sign Studio</h1>
+            <h1 className="sr-only">The-Sign Studio — Interior Design, Architettura e Branding a Firenze e Umbria</h1>
             <div className="relative" style={{ width: 'min(560px, 85vw)', height: 'min(315px, 48vw)' }}>
               <Image
                 src="/logo.svg"
